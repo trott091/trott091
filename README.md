@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+Accounting major, just trying to survive school
 <!--
 **trott091/trott091** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
