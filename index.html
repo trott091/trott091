@@ -1,0 +1,107 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My home Page</title>
+    <style>
+      .imgMain{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      h1{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        color:#2a2223;
+      }
+      p{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        color:#ce4f3e;
+      }
+      h2{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        color:#2a2223
+      }
+      body{
+        background-color: #e4dab1;
+      }
+      .topnav{
+        background-color:#ce4f3e;
+        overflow:hidden;
+      }
+      .topnav a{
+        float:left;
+        color:#2a2223;
+        text-align:center;
+        padding: 14px 16px;
+        text-decoration:none;
+        font-size:17px;
+        font-family:Arial, Helvetica, sans-serif
+      }
+      .topnav a:hover{
+        background-color:#e4dab1;
+        color: #ce4f3e;
+      }
+      .topnav a.active{
+        background-color:#e4dab1;
+        color: #ce4f3e;
+      }
+     @media screen and (max-width: 600px){
+      .topnav a{
+        float:none;
+        display:block;
+      }     
+    }
+    .map{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .introvideo{
+      text-align:center;
+      font-family:Arial, Helvetica, sans-serif;
+      color:#2a2223;
+      font-size:xx-large;
+    }
+    .video{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Home Page</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="resume.html">Resume</a>
+      <a href="project.html">Project</a>
+      <a href="game.html">Game</a>
+      <a href="discovery.html">Discovery</a>
+      <a href="contactme.html">Contact Me</a>
+    </div>
+    <h1>Welcome to my Personal Website!</h1>
+<img src="images/professional-photo.jpg.jpg" width="350" height="400" class="imgMain"/>
+    <p>Welcome to Zach Trotto's personal website! I hope you enjoy your experience.</p>
+  </body>
+  <body>
+    <h2>Hobbies</h2>
+<img src="images/hobby1.jpg.jpg" width="150" height="200" class="imgMain"/>
+    <p>One of my main hobbies is mountain biking. I have been doing this for around 5 years, and have also gotten my dad into it.</p>
+<img src="images/hobby2.jpg.jpg" width="150" height="200" class="imgMain"/>
+    <p>Another one of my favorite hobbies is disc golf. When I came to UMD I started playing as something just to do, but quickly got very into it.</p>
+      <div class="introvideo">
+        <h3>Introduction Video</h3>
+      </div>
+    <div class="video">
+<video width="800" height="450" class="video" controls>
+  <source src="videos/welcome-video.mov" width="1600" height="900" class="video"/>
+</video>      
+    <h1>Interactive Map</h1>
+    </div>
+    <div class="my-map"></div>
+    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-92.1248245239258%2C46.805347144537315%2C-92.06714630126955%2C46.83500736495274&amp;layer=mapnik"astyle="border: 1px solid black" class="map"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=14/46.82018/-92.09599">View Larger Map</a></small>
+  </body>
+</html>
